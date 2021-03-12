@@ -1,7 +1,8 @@
 import { useRef, useState } from "react";
 import SpeechRecognition, { useSpeechRecognition } from "react-speech-recognition";
 import "./App.css";
-import microPhoneIcon from "./microphone.svg";
+import microPhoneIcon from "./images/microphone.png";
+
 function App() {
   const commands = [
     {
@@ -22,7 +23,6 @@ function App() {
         handleReset();
       },
     },
-    ,
     {
       command: "reset background colour",
       callback: () => {
@@ -64,7 +64,7 @@ function App() {
           ref={microphoneRef}
           onClick={handleListing}
         >
-          <img src={microPhoneIcon} className="microphone-icon" />
+          <img src={microPhoneIcon} className="microphone-icon" alt="microhpone icon" />
         </div>
         <div className="microphone-status">
           {isListening ? "Listening........." : "Click to start Listening"}
