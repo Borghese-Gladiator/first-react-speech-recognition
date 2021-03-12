@@ -1,3 +1,7 @@
+# first-react-speech-recognition
+Implemented using SpeechRecognition hook from react-speech-recognition by Following tutorial from LogRocket: [https://blog.logrocket.com/using-the-react-speech-recognition-hook-for-voice-assistance/](https://blog.logrocket.com/using-the-react-speech-recognition-hook-for-voice-assistance/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
